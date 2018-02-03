@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     
+</body>
+</html> 
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: 'Lato', sans-serif;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+</head>
+
+ 
+
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    
+<a href="code9.html">Learn</a>
+
+
+    <a href="#">Earn</a>
+    <a href="#">Grow</a>
+    <a href="#">Rewards</a>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; WE</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="code2.html"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="code5.html"><i class="fa fa-id-badge"></i></a>
+  <a href="logout.php"><i><button class="fa fa-expeditedssl" name="logout"/></button></i></a>
+</div>
+
+</body>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Learn {background-color:red;}
+#Earn {background-color:red;}
+#Grow {background-color:red;}
+#Rewards {background-color:red;}
+</style>
+</head>
+<body>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Learn {background-color: blue;}
+#Earn{background-color: blue;}
+#Grow{background-color: blue;}
+#Rewards {background-color: blue;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Learn', this, 'blue')">Learn</button>
+<button class="tablink" onclick="openPage('Earn', this, 'blue')" id="defaultOpen">Earn</button>
+<button class="tablink" onclick="openPage('Grow', this, 'blue')">Grow</button>
+<button class="tablink" onclick="openPage('Rewards', this, 'blue')">Rewards</button>
+
+<div id="Learn" class="tabcontent">
+  <h3>Learn</h3>
+  <pre><h2> Learn about Ginni.The latest and the most appealing smarter way to do transactions.
+      Rather than using cash or card , we aim restricting the flow of money and focus on use of Ginni
+	  which are like poitns which shall be used instead of of your real hard money and can be used ,
+	  redeemed at any store witht the service .
+	</h2>  </pre>
+</div>
+
+<div id="Earn" class="tabcontent">
+  <h3>Earn</h3
+  <pre><h2>Earn Ginni everytime you do a transaction.
+  Every time you do a transaction you will get some credit points and thus if you
+  withdraw the money values of your Ginnni from your account on our website ,
+  there'll be an increment in the value of money from what you invested.</h2></pre> 
+</div>
+
+<div id="Grow" class="tabcontent">
+  <h3>Grow</h3>
+  <pre><h2>Grow the pile of Ginnis!!!!!!!  ,with added bonus you will get a chance to grow your graph of Ginnis and
+  thus get a gateway to additive income. <h2></pre>
+</div>
+
+<div id="Rewards" class="tabcontent">
+  <h3>Rewards</h3>
+  <pre><h2>Get additive bonus Ginni.
+  As you become an active user of GiNSAA and become a frequent user of it you'll get reward points
+  as well i.e. extra Ginnis.</h2></pre>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
+
